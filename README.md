@@ -16,3 +16,4 @@ Desenvolver um banco de dados para armazenar os dados dos pacientes.
 
 - AWS
 - Serverless
+- DynamoDB
