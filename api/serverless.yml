@@ -1,4 +1,4 @@
-service: alura-med-api
+service: katsumi-med-api
 
 plugins:
   - serverless-dynamodb-local
@@ -126,7 +126,7 @@ resources:
           - email
         UsernameAttributes:
           - email
-        UserPoolName: alura-med-user-pool-${opt:stage, self:provider.stage}
+        UserPoolName: katsumi-med-user-pool-${opt:stage, self:provider.stage}
         Schema:
           - Name: email
             AttributeDataType: String
@@ -163,14 +163,14 @@ resources:
     UserPoolDomain:
       Type: AWS::Cognito::UserPoolDomain
       Properties:
-        Domain: alura-med-${opt:stage, self:provider.stage}
+        Domain: katsumi-med-${opt:stage, self:provider.stage}
         UserPoolId: !Ref UserPool
       
     # Creates a federeated Identity pool
     IdentityPool:
       Type: "AWS::Cognito::IdentityPool"
       Properties:
-        IdentityPoolName: alura-med-identity-pool-${opt:stage, self:provider.stage}
+        IdentityPoolName: katsumi-med-identity-pool-${opt:stage, self:provider.stage}
         AllowUnauthenticatedIdentities: true
         CognitoIdentityProviders: 
           - ClientId: !Ref UserPoolClient
