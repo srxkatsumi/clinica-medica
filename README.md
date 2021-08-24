@@ -11,6 +11,12 @@
 # Objetivo 
 Desenvolver um banco de dados para armazenar os dados dos pacientes.
 
+- Listar Pacientes;
+- Obter Paciente;
+- Cadastrar Paciente;
+- Atualizar Paciente;
+- Excluir Paciente.
+
 
 # Bibliotecas / Frameworks utilizados
 
