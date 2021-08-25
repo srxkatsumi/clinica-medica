@@ -1,4 +1,4 @@
-# Alura Med - Frontend
+# Clinica Medica- Frontend
 
 Frontend da aplicação para cadastro de pacientes.
 
@@ -24,7 +24,7 @@ npm run build
 
 ### Criar a stack
 ```
-aws cloudformation create-stack --stack-name alura-med-front --template-body file://stack.yml
+aws cloudformation create-stack --stack-name front --template-body file://stack.yml
 ```
 
 ### Deploy no backet s3
@@ -34,5 +34,5 @@ aws sync build s3://bucket-name
 
 ### Removendo a stack
 ```
-aws cloudformation delete-stack --stack-name alura-med-front
+aws cloudformation delete-stack --stack-name front
 ```

@@ -1,4 +1,4 @@
-# Alura Med - API
+# Clinica Medica - API
 
 Backend da aplicação para cadastro de pacientes.
 
