@@ -22,9 +22,9 @@ Desenvolver um banco de dados para armazenar os dados dos pacientes.
 - AWS
 - Serverless
 - DynamoDB
+- React
 
 
 # Dificuldades
 
-- Até o momento não consegue fazer o deploy da api para a AWS(ainda estou pesquisando como fazer, apesar de já ter conectado a chave da AWS na API o Serverless não está realizando o deploy
-- )
+- Até o momento não consegui fazer o deploy da api para a AWS(ainda estou pesquisando como fazer, apesar de já ter conectado a chave da AWS na API o Serverless não está realizando o deploy)
